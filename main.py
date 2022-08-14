@@ -14,19 +14,6 @@ import requests
 from requests.structures import CaseInsensitiveDict
 init(autoreset=True)
 #update
-Write.Print("Checking For Updates\n", Colors.green_to_white, interval=0.000025)
-url = "https://watchdog4p.000webhostapp.com/"#made by cow#3479
-up = requests.get(url)
-update = (up.text)
-tex = (update)#made by cow#3479
-if up.text == "false":#made by cow#3479
-    print("No updates found")
-    time.sleep(3)
-if up.text == "true":
-    print("Update Found Please Install New Version")
-    time.sleep(3)
-    exit("UPDATE FOUND")
-system("cls")
 #main
 banner = '''
     _       _       _                        
