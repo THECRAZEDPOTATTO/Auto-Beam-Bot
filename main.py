@@ -52,11 +52,11 @@ print("")
 print(Box.DoubleCube(f"Account Info Before Log:\n"+f"Robux:{robux1}\n"+f"Premium:{perm1}\n"))
 print("")#made by cow#3479
 print("")#made by cow#3479
-rgmail = pwinput.pwinput(prompt="Enter your replacement gmail address -> ",mask='')#made by cow#3479
+rgmail = input(prompt="Enter your replacement gmail address -> ")#made by cow#3479
 print("")#made by cow#3479
-tcookie = pwinput.pwinput(prompt="Enter your target cookie -> ",mask='')#made by cow#3479
-tpass = pwinput.pwinput(prompt="Enter your target password -> ",mask='')#made by cow#3479
-tpin = pwinput.pwinput(prompt="Enter your target pin -> ",mask='')#made by cow#3479
+tcookie = input("Enter your target cookie -> ")#made by cow#3479
+tpass = input("Enter your target password -> ")#made by cow#3479
+tpin = input("Enter your target pin -> ",)#made by cow#3479
 print("")#made by cow#3479
 print("")#made by cow#3479
 print("")#made by cow#3479
