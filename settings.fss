@@ -1,1 +1,2 @@
 main:main.py
+pip:pystyle,colorama,requests,
