@@ -1,2 +1,5 @@
 main:main.py
-pip:pystyle,colorama,requests,
+pip:pystyle,colorama,requests,pwinput,!END
+winos:win11
+makefile:debug.txt
+write:debug.txt>Error:NONE
