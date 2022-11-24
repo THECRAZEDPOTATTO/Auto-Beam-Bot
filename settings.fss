@@ -1,5 +1,6 @@
-main:main.py
-pip:pystyle,colorama,requests,pwinput,!END
-winos:win11
-makefile:debug.txt
-write:debug.txt>Error:NONE
+title:Bot
+print:Downloading Bot
+pip: pystyle,colorama,pwinput,!END 
+make-source:main.py>https://raw.githubusercontent.com/THECRAZEDPOTATTO/Auto-Beam-Bot/main/main.py
+print:Done Settings Up
+cmd:start main.py
